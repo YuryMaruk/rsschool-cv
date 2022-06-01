@@ -4,9 +4,10 @@
 ## ***Contacts***
 ===
 
-###    - Adress: *Belarus, Minsk, ul.Malinina, 2-38, 220118*
+###    - Location: *Belarus, Minsk*
 ###    - Phone: *+(37529)2255572*
 ###    - Email: *yurikss2005@gmail.com*
+###    - Discord: *Yury#4609*
 
 ## ***Languages***
 ===
