@@ -11,6 +11,6 @@
 ## ***Languages***
 ===
 
-### 1. *Russian - C1*
-### 2. *Belarussian - B2*
-### 3. *English - A2*
+### 1. *English - A2*
+### 2. *Russian - C1*
+### 3. *Belarussian - B2*
