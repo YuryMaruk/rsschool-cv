@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <title>cv</title>
 </head>
+
 <body>
-    Hi! It`s my CV.
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <il class="nav-item"><a href="#summary" class="nav-link">Summary</a></il>
+                    <il class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></il>
+                    <il class="nav-item"><a href="#code" class="nav-link">Code</a></il>
+                    <il class="nav-item"><a href="#projects" class="nav-link">Projects</a></il>
+                    <il class="nav-item"><a href="#languages" class="nav-link">Languages</a></il>
+                    <il class="nav-item"><a href="#education" class="nav-link">Education</a></il>
+                    <il class="nav-item"><a href="#skills" class="nav-link">Skills</a></il>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title">Yury Maruk</h1>
+                <p>JUNIOR FRONT-END DEVELOPER</p>
+                <img src="assets/img/cv.jpg" alt="cv_foto" class="cv-foto">
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I`m a junior frontend developer. I want to upgrade my skills. I'm currently taking a course at the <a
+                        href="https://rs.school/">The Rolling Scopes School</a>.</p>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">Location: Belarus, Minsk</li>
+                    <li class="section-item">Phone: +(37529)2255572</li>
+                    <li class="section-item">Email: maruk.dev@gmail.com</li>
+                    <li class="section-item">Discord: Yury#4609</li>
+                </ul>
+            </section>
+            <section class="section" id="skilss">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS</li>
+                    <li class="section-item">JAVASCRIPT</li>
+                    <li class="section-item">GIT</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>
+function isDivideBy(number, a, b) {
+  
+    if ((number % a === 0) && (number % b === 0)) {
+        return true;
+    } else {
+        return false;
+      }
+}
+                </code></pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item"><a href="https://yurymaruk.github.io/rsschool-cv/cv">CV#1. Markdown</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">English - A2</li>
+                    <li class="section-item">Russian - C1</li>
+                    <li class="section-item">Belarussian - B2</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>University of Civil Protection of the Ministry for Emergency Situations of the Republic of Belarus -
+                    Facultie: “Emergency prevention and elimination”.</p>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="div-footer"><a href="https://github.com/YuryMaruk">Github</a></div>
+            <div class="div-footer">© maruk.dev 2022</div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
 </body>
+
 </html>
