@@ -1,5 +1,5 @@
 # **YURY MARUK**
-![Yury Maruk](assets/img/cv.jpg)
+![Yury Maruk](assets/img/cv-round.png)
 
 ## ***About me***
 
